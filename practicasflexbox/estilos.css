@@ -1,0 +1,36 @@
+.menu{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    background-color: rgb(41, 161, 182);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*logo*/
+.menu .logo img{
+    width: 150px;
+}
+/*enlaces*/
+.menu .enlaces ul{
+    display: flex;
+    list-style: none;
+}
+.menu .enlaces ul li{
+    margin-right: 10px;
+}
+.menu .enlaces ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(233, 239, 43)
+}
+.menu .botones button{
+    background-color: rgb(220, 212, 57);
+    color: black;
+    font-size: 20px;
+}
+/*sesion inicio*/
+#inicio{
+    width: 100%;
+    height: 600px;
+}
